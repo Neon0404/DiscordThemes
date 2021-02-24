@@ -1,0 +1,54 @@
+.item-1tOPte#status-picker-online:not(.focused-3afm-j) .status-1AY8sU {
+	background-color: var(--rs-online-color) !important;
+}
+
+.item-1tOPte#status-picker-idle:not(.focused-3afm-j) .status-1AY8sU {
+	background-color: var(--rs-idle-color) !important;
+}
+
+.item-1tOPte#status-picker-dnd:not(.focused-3afm-j) .status-1AY8sU {
+	background-color: var(--rs-dnd-color) !important;
+}
+
+.item-1tOPte#status-picker-invisible:not(.focused-3afm-j) .status-1AY8sU {
+	background-color: var(--rs-invisible-color) !important;
+}
+
+#bfredux:before {
+  background: var(--backgroundDark);
+}
+
+.guildSeparator-3s64Iy{ /* разделитель */
+  background-color: var(--primary);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9{ /*home button */
+  background-color: var(--primary);
+}
+
+.circleIconButton-jET_ig{ /* кнопки под серверами*/
+  color: var(--primary);
+  }
+
+.item-2hkk8m{
+	background: var(--primary) /*непрочитанные сервера */
+}
+
+.rtcConnectionStatusConnected-VRZDjy {
+    color: var(--primaryGradient1);
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
+    display:none;
+}
+.privateChannels-1nO12o .channel-2QD9_O[href="/library"] {
+    display:none;
+}
+
+.iconWrapper-2OrFZ1.da-iconWrapper.clickable-3rdHwn.da-clickable[aria-label="Помощь"]{
+	display: none;
+}
+
+.iconWrapper-2OrFZ1.da-iconWrapper.clickable-3rdHwn.da-clickable[aria-label="Почта"]{
+	display: none; /*почта */
+}
